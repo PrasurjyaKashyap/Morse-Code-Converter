@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+:root {
+    --primary-color: #7F1D1D;
+    --dark-gray: #6B7280;
+    
+
+
+}
+
+.textarea {
+    border: 5px solid #7F1D1D;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+   
+    
+}
+.output1 {
+    border: 5px solid#7F1D1D;
+    height: 10vh;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 1rem ;
+    display: block;
+   
+
+
+}
+
+.button1{
+
+    
+        background-color:  #7F1D1D;
+        border: none;
+    
+        margin: 1rem 35rem;
+        padding: 1rem 2rem;
+        font-size: large;
+        color: white;
+        font-weight: bold;
+    
+
+}
+
+
+body {
+    font-family: Special Elite;
+    margin: 0px;
+}
+
+
+/** Navigation**/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+
+}
+
+.navigation .links {
+    color: white;
+
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/**Header**/
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-comment {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+
+}
+
+.hero .hero-comment .heading-inverted {
+    color: var(--primary-color);
+}
+
+/** Lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+/** Links **/
+
+.links {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    color: white;
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.4rem;
+    border: 1px solid var(--primary-color);
+}
+
+/**footer**/
+.footer {
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 0rem;
+}
+
+.footer .links {
+    color: white;
+}
+
+.footer .footer.header {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+/** Spaces **/
+
+.margin-md {
+    padding: 2rem;
+
+}
+
+/** container **/
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: var(--dark-gray);
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: Special Elite;
+    
+}
+
+.banana {
+    padding: 2rem;
+    padding-top: 4.8rem;
+
+}
+.banana .banana-comment {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    color: var(--primary-color);
+    text-align: center;
+
+}
+.banana .banana-comment1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center ; 
+
+}
+
+.banana .banana-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
